@@ -121,7 +121,7 @@ p {
 /*////////////////goalsection///////////////////*/
 .goalsection {
     padding-top: 128px;
-  
+
 }
 
 .goalsection .container {
@@ -144,4 +144,50 @@ p {
 
 .goalsection__photo img {
     width: 100%;
+}
+
+/*////////////////processsection///////////////////*/
+.process {
+    padding-top: 128px;
+}
+
+.process .container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.process__cycle {
+    justify-content: space-between;
+    display: flex;
+    padding-top: 48px;
+}
+
+.circle-line {
+    padding-bottom: 32px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.process__cycle__step {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.circle {
+    width: 24px;
+    height: 24px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+.circle-line hr {
+    opacity: 40%;
+    border: none;
+    border-top: 4px dotted rgba(36, 5, 242, 1);
+    width: 224px;
+    margin: 0px;
 }
