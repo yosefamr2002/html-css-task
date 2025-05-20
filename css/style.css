@@ -154,7 +154,8 @@ h6 {
     display: flex;
     justify-content: space-around;
 }
-.goalsection__text__left{
+
+.goalsection__text__left {
     margin-right: 61px;
 }
 
@@ -181,12 +182,12 @@ h6 {
 
 .goalsection__text__right {
     padding-top: 32px;
-
-}
-
-.goalsection__photo img {
     width: 100%;
+
 }
+
+
+
 
 /*////////////////processsection///////////////////*/
 .process {
@@ -256,10 +257,12 @@ h6 {
     display: flex;
     justify-content: space-between;
 }
-.mission__text{
+
+.mission__text {
     width: 100%;
-    margin-right: ;:140px ;
+    margin-right: 140px;
 }
+
 .mission-img {
     width: 100%;
 }
@@ -269,11 +272,13 @@ h6 {
     display: flex;
     justify-content: space-between;
 }
-.vision__text{
+
+.vision__text {
     width: 100%;
     margin-left: 140px;
-    
+
 }
+
 .vision__img {
     margin-right: 15px;
     width: 100%;
@@ -376,6 +381,8 @@ h6 {
 .ourteam__cards__card__img {
     padding-bottom: 30px;
 }
+
+
 
 .ourteam__cards__card h3 {
     padding-bottom: 2px;
@@ -515,6 +522,11 @@ h6 {
 
 
 @media (max-width:992px) {
+    h3 {
+        font-size: 25px;
+
+    }
+
     .navbar .container {
         text-align: center;
 
@@ -587,9 +599,9 @@ h6 {
         flex-direction: column;
     }
 
- .vision__text{
-    margin: 0px;
-}
+    .vision__text {
+        margin: 0px;
+    }
 
 
     .benefits .container {
@@ -641,7 +653,10 @@ h6 {
     }
 
     .about__text__right {
+        display: flex;
         margin: 0;
+        flex-direction: column;
+        align-items: center;
     }
 
     .footer__text {
