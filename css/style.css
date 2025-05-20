@@ -730,6 +730,8 @@ h6 {
     .process h6 {
         margin-top: 10px;
     }
-
+.nav__links li {
+    padding-left: 15px;
+}
 
 }
