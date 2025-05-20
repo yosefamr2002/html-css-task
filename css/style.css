@@ -10,6 +10,7 @@
 }
 
 
+
 img {
     width: 100%
 }
@@ -156,9 +157,9 @@ h6 {
 }
 
 .goalsection__text__left {
+    width: 100%;
     margin-right: 61px;
 }
-
 
 
 /*////////////////goalsection///////////////////*/
@@ -210,32 +211,44 @@ h6 {
     /* flex-wrap: wrap; */
 }
 
-.circle-line {
-    padding-bottom: 32px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
+
 
 .process__cycle__step {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+
+    margin: 0 16px;
+
+}
+
+.process__cycle__step p {
+    text-align: left;
 }
 
 .circle {
     width: 24px;
     height: 24px;
-    background-color: blue;
+    background-color: rgba(36, 5, 242, 1);
     border-radius: 50%;
 }
 
-.circle-line hr {
-    opacity: 40%;
-    border: none;
-    border-top: 4px dotted rgba(36, 5, 242, 1);
+
+.line {
     width: 224px;
-    margin: 0px;
+    border-top: 2px dashed #2405f2;
+    opacity: 40%;
+}
+
+.circle-line {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.process h6 {
+    margin-top: 32px;
 }
 
 /*//////////////// Our Mission ///////////////////*/
@@ -255,7 +268,8 @@ h6 {
 
 .mission__content {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
 }
 
 .mission__text {
@@ -284,7 +298,7 @@ h6 {
     width: 100%;
 }
 
-/*//////////////// Our Mission ///////////////////*/
+/*//////////////// benefits  ///////////////////*/
 .benefits {
     padding-top: 128px;
     padding-bottom: 128px;
@@ -573,139 +587,149 @@ h6 {
         flex-wrap: wrap;
         padding: 0px;
     }
-}
-
-.process__cycle {
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.mission__content {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.mission__text {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
-
-.mission-img {
-    margin-top: 10px;
-}
-
-.vision {
-    display: flex;
-    flex-direction: column;
-}
-
-.vision__text {
-    margin: 0px;
-}
 
 
-.benefits .container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
-}
+    .process__cycle {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 
-.benefits__cards {
-    display: flex;
-    flex-direction: column;
-}
+    .mission__content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 
-.benefits__card {
-    margin-bottom: 15px;
-}
+    .mission__text {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 
-.benefits__Partners {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
+    .mission-img {
+        margin-top: 10px;
+    }
 
-.benefits__Partners li {
-    margin-bottom: 20px;
-}
+    .vision {
+        display: flex;
+        flex-direction: column;
+    }
 
-.ourteam__cards {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
-}
+    .vision__text {
+        margin: 0px;
+    }
 
-.ourteam__cards {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-content: center;
-}
 
-.card_margin {
-    margin-bottom: 20px;
-    width: 70%;
-}
+    .benefits .container {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
 
-.about__text__right {
-    display: flex;
-    margin: 0;
-    flex-direction: column;
-    align-items: center;
-}
+    .benefits__cards {
+        display: flex;
+        flex-direction: column;
+    }
 
-.footer__text {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 15px;
-    text-align: center;
-}
+    .benefits__card {
+        margin-bottom: 15px;
+    }
 
-.footer .container {
-    display: flex;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    text-align: center;
-}
+    .benefits__Partners {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 
-.footer__text__left {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 0px;
-}
+    .benefits__Partners li {
+        margin-bottom: 20px;
+    }
 
-.footer .content {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
+    .ourteam__cards {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
 
-.about__contact_us {
-    text-align: center;
-    width: 80%;
-    margin: auto;
-}
+    .ourteam__cards {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    }
 
-.about__contact_us .content {
-    padding: 17px;
+    .card_margin {
+        margin-bottom: 20px;
+        width: 70%;
+    }
 
-}
+    .about__text__right {
+        display: flex;
+        margin: 0;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.footer__links ul {
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
+    .footer__text {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .footer .container {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer__text__left {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .footer .content {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .about__contact_us {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+
+    .about__contact_us .content {
+        padding: 17px;
+
+    }
+
+    .footer__links ul {
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .process__cycle__step {
+        margin-bottom: 30px;
+    }
+
+    .process h6 {
+        margin-top: 10px;
+    }
+
+
 }
