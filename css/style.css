@@ -571,139 +571,141 @@ h6 {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-    }
-
-    .process__cycle {
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .mission__content {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-    .mission__text {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-    .mission-img {
-        margin-top: 10px;
-    }
-
-    .vision {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .vision__text {
-        margin: 0px;
-    }
-
-
-    .benefits .container {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-content: center;
-    }
-
-    .benefits__cards {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .benefits__card {
-        margin-bottom: 15px;
-    }
-
-    .benefits__Partners {
-        display: flex;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .benefits__Partners li {
-        margin-bottom: 20px;
-    }
-
-    .ourteam__cards {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-content: center;
-    }
-
-    .ourteam__cards {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-content: center;
-    }
-
-    .card_margin {
-        margin-bottom: 20px;
-        width: 70%;
-    }
-
-    .about__text__right {
-        display: flex;
-        margin: 0;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footer__text {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 15px;
-        text-align: center;
-    }
-
-    .footer .container {
-        display: flex;
-        align-items: center;
-        align-content: center;
-        flex-wrap: wrap;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .footer__text__left {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-items: center;
         padding: 0px;
     }
+}
 
-    .footer .content {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
+.process__cycle {
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
-    .about__contact_us {
-        text-align: center;
-        width: 80%;
-        margin: auto;
-    }
+.mission__content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 
-    .about__contact_us .content {
-        padding: 17px;
+.mission__text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
 
-    }
+.mission-img {
+    margin-top: 10px;
+}
 
-    .footer__links ul {
-        justify-content: center;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
+.vision {
+    display: flex;
+    flex-direction: column;
+}
+
+.vision__text {
+    margin: 0px;
+}
+
+
+.benefits .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+.benefits__cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.benefits__card {
+    margin-bottom: 15px;
+}
+
+.benefits__Partners {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.benefits__Partners li {
+    margin-bottom: 20px;
+}
+
+.ourteam__cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+.ourteam__cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+.card_margin {
+    margin-bottom: 20px;
+    width: 70%;
+}
+
+.about__text__right {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__text {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer__text__left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px;
+}
+
+.footer .content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.about__contact_us {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.about__contact_us .content {
+    padding: 17px;
+
+}
+
+.footer__links ul {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 }
