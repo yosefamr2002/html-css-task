@@ -145,9 +145,19 @@ h6 {
 }
 
 
-.herosection__img img {
+.herosection__img {
     width: 100%;
 }
+
+.goalsection__text {
+    padding: 80px 109px 80px 79px;
+    display: flex;
+    justify-content: space-around;
+}
+.goalsection__text__left{
+    margin-right: 61px;
+}
+
 
 
 /*////////////////goalsection///////////////////*/
@@ -234,9 +244,7 @@ h6 {
     padding-bottom: 128px;
 }
 
-.mission h1 {
-    font-size: 38px;
-}
+
 
 .mission .container {
     display: flex;
@@ -248,7 +256,10 @@ h6 {
     display: flex;
     justify-content: space-between;
 }
-
+.mission__text{
+    width: 100%;
+    margin-right: ;:140px ;
+}
 .mission-img {
     width: 100%;
 }
@@ -258,7 +269,11 @@ h6 {
     display: flex;
     justify-content: space-between;
 }
-
+.vision__text{
+    width: 100%;
+    margin-left: 140px;
+    
+}
 .vision__img {
     margin-right: 15px;
     width: 100%;
@@ -283,6 +298,7 @@ h6 {
 }
 
 .benefits__card {
+    margin: 0px 16px;
     padding-top: 50px;
     padding-bottom: 48px;
     padding-left: 48px;
@@ -570,6 +586,10 @@ h6 {
         display: flex;
         flex-direction: column;
     }
+
+ .vision__text{
+    margin: 0px;
+}
 
 
     .benefits .container {
